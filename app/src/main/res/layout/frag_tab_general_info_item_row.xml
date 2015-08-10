@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:padding="10dp">
+
+    <!-- Name -->
+    <TextView
+        android:id="@+id/txtNameTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:text="@string/lbl_profile_name"/>
+
+    <View
+        android:id="@+id/separatorNameTitle"
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="@color/primary"
+        android:layout_below="@+id/txtNameTitle"/>
+
+    <TextView
+        android:id="@+id/txtNameValue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="25dp"
+        android:layout_below="@+id/separatorNameTitle"
+        android:layout_marginBottom="5dp" />
+
+    <!-- Gender -->
+    <TextView
+        android:id="@+id/txtGenderTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_below="@+id/txtNameValue"
+        android:layout_marginBottom="5dp"
+        android:text="@string/lbl_profile_gender"/>
+
+    <View
+        android:id="@+id/separatorGenderTitle"
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="@color/primary"
+        android:layout_below="@+id/txtGenderTitle"/>
+
+    <TextView
+        android:id="@+id/txtGenderValue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="25dp"
+        android:layout_below="@+id/separatorGenderTitle"
+        android:layout_marginBottom="5dp" />
+
+    <!-- Locale -->
+    <TextView
+        android:id="@+id/txtLocaleTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_below="@+id/txtGenderValue"
+        android:layout_marginBottom="5dp"
+        android:text="@string/lbl_profile_locale"/>
+
+    <View
+        android:id="@+id/separatorLocaleTitle"
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="@color/primary"
+        android:layout_below="@+id/txtLocaleTitle"/>
+
+    <TextView
+        android:id="@+id/txtLocaleValue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="25dp"
+        android:layout_below="@+id/separatorLocaleTitle"
+        android:layout_marginBottom="5dp" />
+
+    <!-- Link -->
+    <TextView
+        android:id="@+id/txtLinkTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_below="@+id/txtLocaleValue"
+        android:layout_marginBottom="5dp"
+        android:text="@string/lbl_profile_link"/>
+
+    <View
+        android:id="@+id/separatorLinkTitle"
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="@color/primary"
+        android:layout_below="@+id/txtLinkTitle"/>
+
+    <TextView
+        android:id="@+id/txtLinkValue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="25dp"
+        android:layout_below="@+id/separatorLinkTitle"
+        android:layout_marginBottom="5dp" />
+
+    <!-- Email -->
+    <TextView
+        android:id="@+id/txtEmailTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_below="@+id/txtLinkValue"
+        android:layout_marginBottom="5dp"
+        android:text="@string/lbl_profile_email"/>
+
+    <View
+        android:id="@+id/separatorEmailTitle"
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="@color/primary"
+        android:layout_below="@+id/txtEmailTitle"/>
+
+    <TextView
+        android:id="@+id/txtEmailValue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="25dp"
+        android:layout_below="@+id/separatorEmailTitle"
+        android:layout_marginBottom="5dp" />
+
+    <!-- Age -->
+    <TextView
+        android:id="@+id/txtAgeTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_below="@+id/txtEmailValue"
+        android:layout_marginBottom="5dp"
+        android:text="@string/lbl_profile_age_range"/>
+
+    <View
+        android:id="@+id/separatorAgeTitle"
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="@color/primary"
+        android:layout_below="@+id/txtAgeTitle"/>
+
+    <TextView
+        android:id="@+id/txtAgeValue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="25dp"
+        android:layout_below="@+id/separatorAgeTitle"
+        android:layout_marginBottom="5dp" />
+
+</RelativeLayout>

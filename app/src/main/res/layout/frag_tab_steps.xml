@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <!-- A CardView that contains a TextView -->
+    <android.support.v7.widget.CardView
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/card_view"
+        android:layout_gravity="center"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        card_view:cardCornerRadius="4dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_margin="7dp">
+
+        <ListView
+            android:id="@+id/tab_trend_list"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            />
+
+        <TextView
+            android:id="@+id/emptyElement"
+            android:drawableTop="@drawable/ic_heart"
+            android:drawablePadding="15dp"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/text_no_trends"
+            />
+
+    </android.support.v7.widget.CardView>
+
+</RelativeLayout>
