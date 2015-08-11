@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:padding="10dp">
+
+    <!-- TweetText -->
+    <TextView
+        android:id="@+id/txtTweetTextTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:text="@string/lbl_tweet_text"/>
+
+    <View
+        android:id="@+id/separatorTweetTextTitle"
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="@color/primary"
+        android:layout_below="@+id/txtTweetTextTitle"/>
+
+    <TextView
+        android:id="@+id/txtTweetTextValue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="25dp"
+        android:layout_below="@+id/separatorTweetTextTitle"
+        android:layout_marginBottom="5dp" />
+
+    <!-- Sentiment -->
+    <TextView
+        android:id="@+id/txtSentimentTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_below="@+id/txtTweetTextValue"
+        android:layout_marginBottom="5dp"
+        android:text="@string/lbl_sentiment"/>
+
+    <View
+        android:id="@+id/separatorSentimentTitle"
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="@color/primary"
+        android:layout_below="@+id/txtSentimentTitle"/>
+
+    <TextView
+        android:id="@+id/txtSentimentValue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="25dp"
+        android:layout_below="@+id/separatorSentimentTitle"
+        android:layout_marginBottom="5dp" />
+
+    <!-- Confidence -->
+    <TextView
+        android:id="@+id/txtConfidenceTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_below="@+id/txtSentimentValue"
+        android:layout_marginBottom="5dp"
+        android:text="@string/lbl_confidence"/>
+
+    <View
+        android:id="@+id/separatorConfidenceTitle"
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="@color/primary"
+        android:layout_below="@+id/txtConfidenceTitle"/>
+
+    <TextView
+        android:id="@+id/txtConfidenceValue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="25dp"
+        android:layout_below="@+id/separatorConfidenceTitle"
+        android:layout_marginBottom="5dp" />
+
+</RelativeLayout>

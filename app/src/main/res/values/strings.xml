@@ -1,0 +1,628 @@
+<!--
+  Copyright 2013 The Android Open Source Project
+
+  Licensed under the Apache License, Version 2.0 (the "License");
+  you may not use this file except in compliance with the License.
+  You may obtain a copy of the License at
+
+      http://www.apache.org/licenses/LICENSE-2.0
+
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License.
+  -->
+
+<resources>
+    <string name="app_name">DataboxInc</string>
+
+    <string-array name="menu_array">
+        <item>Home</item>
+        <item>Show Data</item>
+    </string-array>
+
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+    <string name="action_websearch">Web search</string>
+    <string name="app_not_available">Sorry, there\'s no web browser available</string>
+    <string name="action_settings">Action settings</string>
+    <string name="hello_world">Hello</string>
+
+
+    <string name="facebook_app_id">PUT YOUR FACEBOOK APP ID HERE</string>
+    <string name="text_welcome_login">Hello, we need you to sign in with Twitter, Facebook and Instagram to proceed.</string>
+    <string name="title_main_activity">DataboxInc</string>
+
+    <string name="text_no_light">Nothing to see here, please come back another time.</string>
+    <string name="text_no_sentiment">No feelings so far, please come back another time.</string>
+    <string name="text_no_locations">Zero recorded places, please come back another time.</string>
+
+    <string name="tab_general_bulb_icon">Bulb icon</string>
+    <string name="tab_locations_icon">Locations Icon</string>
+    <string name="tab_heart_icon">Heart icon</string>
+
+    <string name="lbl_profile_name">Name:</string>
+    <string name="lbl_profile_gender">Gender:</string>
+    <string name="lbl_profile_locale">Locale:</string>
+    <string name="lbl_profile_link">Link:</string>
+    <string name="lbl_profile_email">Email:</string>
+    <string name="lbl_profile_age_range">Age Range:</string>
+    <string name="lbl_tweet_text">Tweet:</string>
+    <string name="lbl_sentiment">Sentiment:</string>
+    <string name="lbl_confidence">Confidence:</string>
+    <string name="text_no_trends">No trends yet.</string>
+    <string name="lbl_trend">Trend:</string>
+    <string name="lbl_trend_count">Count:</string>
+    <string name="connect_instagram">Log in with Instagram</string>
+
+    <string name="lbl_steps_date">Date:</string>
+    <string name="lbl_steps">Steps:</string>
+
+
+
+    <string-array name="stop_words">
+        <item>A</item>
+        <item>ABOUT</item>
+        <item>ABOVE</item>
+        <item>ACROSS</item>
+        <item>AFTER</item>
+        <item>AFTERWARDS</item>
+        <item>AGAIN</item>
+        <item>AGAINST</item>
+        <item>ALL</item>
+        <item>ALMOST</item>
+        <item>ALONE</item>
+        <item>ALONG</item>
+        <item>ALREADY</item>
+        <item>ALSO</item>
+        <item>ALTHOUGH</item>
+        <item>ALWAYS</item>
+        <item>AM</item>
+        <item>AMONG</item>
+        <item>AMONGST</item>
+        <item>AMOUNGST</item>
+        <item>AMOUNT</item>
+        <item>AN</item>
+        <item>AND</item>
+        <item>ANOTHER</item>
+        <item>ANY</item>
+        <item>ANYHOW</item>
+        <item>ANYONE</item>
+        <item>ANYTHING</item>
+        <item>ANYWAY</item>
+        <item>ANYWHERE</item>
+        <item>ARE</item>
+        <item>AROUND</item>
+        <item>AS</item>
+        <item>AT</item>
+        <item>BACK</item>
+        <item>BE</item>
+        <item>BECAME</item>
+        <item>BECAUSE</item>
+        <item>BECOME</item>
+        <item>BECOMES</item>
+        <item>BECOMING</item>
+        <item>BEEN</item>
+        <item>BEFORE</item>
+        <item>BEFOREHAND</item>
+        <item>BEHIND</item>
+        <item>BEING</item>
+        <item>BELOW</item>
+        <item>BESIDE</item>
+        <item>BESIDES</item>
+        <item>BETWEEN</item>
+        <item>BEYOND</item>
+        <item>BILL</item>
+        <item>BOTH</item>
+        <item>BOTTOM</item>
+        <item>BUT</item>
+        <item>BY</item>
+        <item>CALL</item>
+        <item>CAN</item>
+        <item>CANNOT</item>
+        <item>CANT</item>
+        <item>CO</item>
+        <item>COMPUTER</item>
+        <item>CON</item>
+        <item>COULD</item>
+        <item>COULDNT</item>
+        <item>CRY</item>
+        <item>DE</item>
+        <item>DESCRIBE</item>
+        <item>DETAIL</item>
+        <item>DO</item>
+        <item>DONE</item>
+        <item>DOWN</item>
+        <item>DUE</item>
+        <item>DURING</item>
+        <item>EACH</item>
+        <item>EG</item>
+        <item>EIGHT</item>
+        <item>EITHER</item>
+        <item>ELEVEN</item>
+        <item>ELSE</item>
+        <item>ELSEWHERE</item>
+        <item>EMPTY</item>
+        <item>ENOUGH</item>
+        <item>ETC</item>
+        <item>EVEN</item>
+        <item>EVER</item>
+        <item>EVERY</item>
+        <item>EVERYONE</item>
+        <item>EVERYTHING</item>
+        <item>EVERYWHERE</item>
+        <item>EXCEPT</item>
+        <item>FEW</item>
+        <item>FIFTEEN</item>
+        <item>FIFY</item>
+        <item>FILL</item>
+        <item>FIND</item>
+        <item>FIRE</item>
+        <item>FIRST</item>
+        <item>FIVE</item>
+        <item>FOR</item>
+        <item>FORMER</item>
+        <item>FORMERLY</item>
+        <item>FORTY</item>
+        <item>FOUND</item>
+        <item>FOUR</item>
+        <item>FROM</item>
+        <item>FRONT</item>
+        <item>FULL</item>
+        <item>FURTHER</item>
+        <item>GET</item>
+        <item>GIVE</item>
+        <item>GO</item>
+        <item>HAD</item>
+        <item>HAS</item>
+        <item>HASNT</item>
+        <item>HAVE</item>
+        <item>HE</item>
+        <item>HENCE</item>
+        <item>HER</item>
+        <item>HERE</item>
+        <item>HEREAFTER</item>
+        <item>HEREBY</item>
+        <item>HEREIN</item>
+        <item>HEREUPON</item>
+        <item>HERS</item>
+        <item>HERSE</item>
+        <item>HIM</item>
+        <item>HIMSE</item>
+        <item>HIS</item>
+        <item>HOW</item>
+        <item>HOWEVER</item>
+        <item>HUNDRED</item>
+        <item>I</item>
+        <item>IE</item>
+        <item>IF</item>
+        <item>IN</item>
+        <item>INC</item>
+        <item>INDEED</item>
+        <item>INTEREST</item>
+        <item>INTO</item>
+        <item>IS</item>
+        <item>IT</item>
+        <item>ITS</item>
+        <item>ITSE</item>
+        <item>KEEP</item>
+        <item>LAST</item>
+        <item>LATTER</item>
+        <item>LATTERLY</item>
+        <item>LEAST</item>
+        <item>LESS</item>
+        <item>LTD</item>
+        <item>MADE</item>
+        <item>MANY</item>
+        <item>MAY</item>
+        <item>ME</item>
+        <item>MEANWHILE</item>
+        <item>MIGHT</item>
+        <item>MILL</item>
+        <item>MINE</item>
+        <item>MORE</item>
+        <item>MOREOVER</item>
+        <item>MOST</item>
+        <item>MOSTLY</item>
+        <item>MOVE</item>
+        <item>MUCH</item>
+        <item>MUST</item>
+        <item>MY</item>
+        <item>MYSE</item>
+        <item>NAME</item>
+        <item>NAMELY</item>
+        <item>NEITHER</item>
+        <item>NEVER</item>
+        <item>NEVERTHELESS</item>
+        <item>NEXT</item>
+        <item>NINE</item>
+        <item>NO</item>
+        <item>NOBODY</item>
+        <item>NONE</item>
+        <item>NOONE</item>
+        <item>NOR</item>
+        <item>NOT</item>
+        <item>NOTHING</item>
+        <item>NOW</item>
+        <item>NOWHERE</item>
+        <item>OF</item>
+        <item>OFF</item>
+        <item>OFTEN</item>
+        <item>ON</item>
+        <item>ONCE</item>
+        <item>ONE</item>
+        <item>ONLY</item>
+        <item>ONTO</item>
+        <item>OR</item>
+        <item>OTHER</item>
+        <item>OTHERS</item>
+        <item>OTHERWISE</item>
+        <item>OUR</item>
+        <item>OURS</item>
+        <item>OURSELVES</item>
+        <item>OUT</item>
+        <item>OVER</item>
+        <item>OWN</item>
+        <item>PART</item>
+        <item>PER</item>
+        <item>PERHAPS</item>
+        <item>PLEASE</item>
+        <item>PUT</item>
+        <item>RATHER</item>
+        <item>RE</item>
+        <item>SAME</item>
+        <item>SEE</item>
+        <item>SEEM</item>
+        <item>SEEMED</item>
+        <item>SEEMING</item>
+        <item>SEEMS</item>
+        <item>SERIOUS</item>
+        <item>SEVERAL</item>
+        <item>SHE</item>
+        <item>SHOULD</item>
+        <item>SIDE</item>
+        <item>SHOW</item>
+        <item>SINCE</item>
+        <item>SINCERE</item>
+        <item>SIX</item>
+        <item>SIXTY</item>
+        <item>SO</item>
+        <item>SOMEHOW</item>
+        <item>SOME</item>
+        <item>SOMEONE</item>
+        <item>SOMETHING</item>
+        <item>SOMETIME</item>
+        <item>SOMETIMES</item>
+        <item>SOMEWHERE</item>
+        <item>STILL</item>
+        <item>SUCH</item>
+        <item>SYSTEM</item>
+        <item>TAKE</item>
+        <item>TEN</item>
+        <item>THAN</item>
+        <item>THAT</item>
+        <item>THE</item>
+        <item>THEIR</item>
+        <item>THEM</item>
+        <item>THEMSELVES</item>
+        <item>THEN</item>
+        <item>THENCE</item>
+        <item>THERE</item>
+        <item>THEREAFTER</item>
+        <item>THEREBY</item>
+        <item>THEREFORE</item>
+        <item>THEREIN</item>
+        <item>THEREUPON</item>
+        <item>THESE</item>
+        <item>THEY</item>
+        <item>THICK</item>
+        <item>THIN</item>
+        <item>THIRD</item>
+        <item>THIS</item>
+        <item>THOSE</item>
+        <item>THOUGH</item>
+        <item>THREE</item>
+        <item>THROUGH</item>
+        <item>THROUGHOUT</item>
+        <item>THRU</item>
+        <item>THUS</item>
+        <item>TO</item>
+        <item>TOGETHER</item>
+        <item>TOO</item>
+        <item>TOP</item>
+        <item>TOWARD</item>
+        <item>TOWARDS</item>
+        <item>TWELVE</item>
+        <item>TWENTY</item>
+        <item>TWO</item>
+        <item>UN</item>
+        <item>UNDER</item>
+        <item>UNTIL</item>
+        <item>UP</item>
+        <item>UPON</item>
+        <item>US</item>
+        <item>VERY</item>
+        <item>VIA</item>
+        <item>WAS</item>
+        <item>WE</item>
+        <item>WELL</item>
+        <item>WERE</item>
+        <item>WHAT</item>
+        <item>WHATEVER</item>
+        <item>WHEN</item>
+        <item>WHENCE</item>
+        <item>WHENEVER</item>
+        <item>WHERE</item>
+        <item>WHEREAFTER</item>
+        <item>WHEREAS</item>
+        <item>WHEREBY</item>
+        <item>WHEREIN</item>
+        <item>WHEREUPON</item>
+        <item>WHEREVER</item>
+        <item>WHETHER</item>
+        <item>WHICH</item>
+        <item>WHILE</item>
+        <item>WHITHER</item>
+        <item>WHO</item>
+        <item>WHOEVER</item>
+        <item>WHOLE</item>
+        <item>WHOM</item>
+        <item>WHOSE</item>
+        <item>WHY</item>
+        <item>WILL</item>
+        <item>WITH</item>
+        <item>WITHIN</item>
+        <item>WITHOUT</item>
+        <item>WOULD</item>
+        <item>YET</item>
+        <item>YOU</item>
+        <item>YOUR</item>
+        <item>YOURS</item>
+        <item>YOURSELF</item>
+        <item>YOURSELVES</item>
+        <item>RT</item>
+        <item>-</item>
+        <item>I\'M</item>
+        <item>I\'VE</item>
+        <item>|</item>
+        <item>.</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>W/</item>
+        <item>I\'LL</item>
+        <item>&amp;</item>
+
+        // Portuguese
+
+        <item>DE</item>
+        <item>A</item>
+        <item>O</item>
+        <item>QUE</item>
+        <item>E</item>
+        <item>DO</item>
+        <item>DA</item>
+        <item>EM</item>
+        <item>UM</item>
+        <item>PARA</item>
+        <item>É</item>
+        <item>COM</item>
+        <item>NÃO</item>
+        <item>UMA</item>
+        <item>OS</item>
+        <item>NO</item>
+        <item>SE</item>
+        <item>NA</item>
+        <item>POR</item>
+        <item>MAIS</item>
+        <item>AS</item>
+        <item>DOS</item>
+        <item>COMO</item>
+        <item>MAS</item>
+        <item>FOI</item>
+        <item>AO</item>
+        <item>ELE</item>
+        <item>DAS</item>
+        <item>TEM</item>
+        <item>À</item>
+        <item>SEU</item>
+        <item>SUA</item>
+        <item>OU</item>
+        <item>SER</item>
+        <item>QUANDO</item>
+        <item>MUITO</item>
+        <item>HÁ</item>
+        <item>NOS</item>
+        <item>JÁ</item>
+        <item>ESTÁ</item>
+        <item>EU</item>
+        <item>TAMBÉM</item>
+        <item>SÓ</item>
+        <item>PELO</item>
+        <item>PELA</item>
+        <item>ATÉ</item>
+        <item>ISSO</item>
+        <item>ELA</item>
+        <item>ENTRE</item>
+        <item>ERA</item>
+        <item>DEPOIS</item>
+        <item>SEM</item>
+        <item>MESMO</item>
+        <item>AOS</item>
+        <item>TER</item>
+        <item>SEUS</item>
+        <item>QUEM</item>
+        <item>NAS</item>
+        <item>ME</item>
+        <item>ESSE</item>
+        <item>ELES</item>
+        <item>ESTÃO</item>
+        <item>VOCÊ</item>
+        <item>TINHA</item>
+        <item>FORAM</item>
+        <item>ESSA</item>
+        <item>NUM</item>
+        <item>NEM</item>
+        <item>SUAS</item>
+        <item>MEU</item>
+        <item>ÀS</item>
+        <item>MINHA</item>
+        <item>TÊM</item>
+        <item>NUMA</item>
+        <item>PELOS</item>
+        <item>ELAS</item>
+        <item>HAVIA</item>
+        <item>SEJA</item>
+        <item>QUAL</item>
+        <item>SERÁ</item>
+        <item>NÓS</item>
+        <item>TENHO</item>
+        <item>LHE</item>
+        <item>DELES</item>
+        <item>ESSAS</item>
+        <item>ESSES</item>
+        <item>PELAS</item>
+        <item>ESTE</item>
+        <item>FOSSE</item>
+        <item>DELE</item>
+        <item>TU</item>
+        <item>TE</item>
+        <item>VOCÊS</item>
+        <item>VOS</item>
+        <item>LHES</item>
+        <item>MEUS</item>
+        <item>MINHAS</item>
+        <item>TEU</item>
+        <item>TUA</item>
+        <item>TEUS</item>
+        <item>TUAS</item>
+        <item>NOSSO</item>
+        <item>NOSSA</item>
+        <item>NOSSOS</item>
+        <item>NOSSAS</item>
+        <item>DELA</item>
+        <item>DELAS</item>
+        <item>ESTA</item>
+        <item>ESTES</item>
+        <item>ESTAS</item>
+        <item>AQUELE</item>
+        <item>AQUELA</item>
+        <item>AQUELES</item>
+        <item>AQUELAS</item>
+        <item>ISTO</item>
+        <item>AQUILO</item>
+        <item>ESTOU</item>
+        <item>ESTÁ</item>
+        <item>ESTAMOS</item>
+        <item>ESTÃO</item>
+        <item>ESTIVE</item>
+        <item>ESTEVE</item>
+        <item>ESTIVEMOS</item>
+        <item>ESTIVERAM</item>
+        <item>ESTAVA</item>
+        <item>ESTÁVAMOS</item>
+        <item>ESTAVAM</item>
+        <item>ESTIVERA</item>
+        <item>ESTIVÉRAMOS</item>
+        <item>ESTEJA</item>
+        <item>ESTEJAMOS</item>
+        <item>ESTEJAM</item>
+        <item>ESTIVESSE</item>
+        <item>ESTIVÉSSEMOS</item>
+        <item>ESTIVESSEM</item>
+        <item>ESTIVER</item>
+        <item>ESTIVERMOS</item>
+        <item>ESTIVEREM</item>
+        <item>HEI</item>
+        <item>HÁ</item>
+        <item>HAVEMOS</item>
+        <item>HÃO</item>
+        <item>HOUVE</item>
+        <item>HOUVEMOS</item>
+        <item>HOUVERAM</item>
+        <item>HOUVERA</item>
+        <item>HOUVÉRAMOS</item>
+        <item>HAJA</item>
+        <item>HAJAMOS</item>
+        <item>HAJAM</item>
+        <item>HOUVESSE</item>
+        <item>HOUVÉSSEMOS</item>
+        <item>HOUVESSEM</item>
+        <item>HOUVER</item>
+        <item>HOUVERMOS</item>
+        <item>HOUVEREM</item>
+        <item>HOUVEREI</item>
+        <item>HOUVERÁ</item>
+        <item>HOUVEREMOS</item>
+        <item>HOUVERÃO</item>
+        <item>HOUVERIA</item>
+        <item>HOUVERÍAMOS</item>
+        <item>HOUVERIAM</item>
+        <item>SOU</item>
+        <item>SOMOS</item>
+        <item>SÃO</item>
+        <item>ERA</item>
+        <item>ÉRAMOS</item>
+        <item>ERAM</item>
+        <item>FUI</item>
+        <item>FOI</item>
+        <item>FOMOS</item>
+        <item>FORAM</item>
+        <item>FORA</item>
+        <item>FÔRAMOS</item>
+        <item>SEJA</item>
+        <item>SEJAMOS</item>
+        <item>SEJAM</item>
+        <item>FOSSE</item>
+        <item>FÔSSEMOS</item>
+        <item>FOSSEM</item>
+        <item>FOR</item>
+        <item>FORMOS</item>
+        <item>FOREM</item>
+        <item>SEREI</item>
+        <item>SERÁ</item>
+        <item>SEREMOS</item>
+        <item>SERÃO</item>
+        <item>SERIA</item>
+        <item>SERÍAMOS</item>
+        <item>SERIAM</item>
+        <item>TENHO</item>
+        <item>TEM</item>
+        <item>TEMOS</item>
+        <item>TÉM</item>
+        <item>TINHA</item>
+        <item>TÍNHAMOS</item>
+        <item>TINHAM</item>
+        <item>TIVE</item>
+        <item>TEVE</item>
+        <item>TIVEMOS</item>
+        <item>TIVERAM</item>
+        <item>TIVERA</item>
+        <item>TIVÉRAMOS</item>
+        <item>TENHA</item>
+        <item>TENHAMOS</item>
+        <item>TENHAM</item>
+        <item>TIVESSE</item>
+        <item>TIVÉSSEMOS</item>
+        <item>TIVESSEM</item>
+        <item>TIVER</item>
+        <item>TIVERMOS</item>
+        <item>TIVEREM</item>
+        <item>TEREI</item>
+        <item>TERÁ</item>
+        <item>TEREMOS</item>
+        <item>TERÃO</item>
+        <item>TERIA</item>
+        <item>TERÍAMOS</item>
+        <item>TERIAM</item>
+
+    </string-array>
+
+</resources>
