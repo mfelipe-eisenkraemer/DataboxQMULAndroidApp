@@ -232,11 +232,11 @@ public class ServTrendAnalysis extends Service {
 
                     List<Trend> trendsToAdd = removeStopWords(tweet.text);
 
-                    mTrendDataSource.open();
-                    mTrendDataSource.insertMultipleTrends(trendsToAdd);
-                    mTrendDataSource.close();
-
-                    //Log.i(TAG, tweet.text);
+                    TrendDataSource trendDataSource = new TrendDataSource(getApplicationContext());
+                    trendDataSource.open();
+                    trendDataSource.insertMultipleTrends(trendsToAdd);
+                    trendDataSource.close();
+                    trendDataSource = null;
                 }
 
                 if( highestId != null) {
@@ -252,10 +252,6 @@ public class ServTrendAnalysis extends Service {
                 //Do something on failure
             }
         });
-    }
-
-    private void addTrends(List<Trend> trendsToAdd) {
-
     }
 
     private List<Trend> removeStopWords(String text) {
@@ -388,12 +384,6 @@ public class ServTrendAnalysis extends Service {
             TweetSentiment tweetSentiment = mTweetSentimentDataSource.getLastTweetSentiment();
             mTweetSentimentDataSource.close();
 
-            // Compare the dates of last read
-            Date date = new Date();
-
-            // Try to get new tweets
-            // if( getDateDiff(date, tweetSentiment.getmDate(), TimeUnit.HOURS) > 5 ) {
-
             // Get most recent tweet from user
             mStatusesService.userTimeline(mSessionTwitter.getUserId(), null, null, tweetSentiment.getmIdTweet(), null, true, true, false, true, new Callback<List<Tweet>>() {
                 @Override
@@ -436,7 +426,6 @@ public class ServTrendAnalysis extends Service {
                     //Do something on failure
                 }
             });
-            //}
 
             return null;
         }
